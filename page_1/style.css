@@ -72,12 +72,17 @@ body {
   text-decoration: underline overline;
 }
 
-body a:hover {
-  color: rgb(6, 224, 224);
+header a:hover {
+  color: rgb(193, 252, 252);
   text-decoration: underline;
 }
 
 @media all and (max-width:800px) {
+
+  body{
+    background-color: rgb(105, 109, 109);
+  }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -376,7 +381,6 @@ h2 {
   height: 70px;
   background-color: rgb(53, 51, 51);
   border: none;
-
 }
 
 .btn-projects a {
@@ -570,7 +574,6 @@ h2 {
   .footer {
     display: flex;
     flex-wrap: wrap;
-
   }
 }
 
