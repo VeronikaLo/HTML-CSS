@@ -552,8 +552,6 @@ h2 {
   line-height: 24px;
   color: white;
   text-decoration: none;
-
-
 }
 
 .list {
@@ -568,6 +566,12 @@ h2 {
 .min {
   display: block;
   min-width: 50px;
+}
+
+
+footer a:hover {
+  color: rgb(193, 252, 252);
+  text-decoration: underline;
 }
 
 @media all and (max-width:800px) {
